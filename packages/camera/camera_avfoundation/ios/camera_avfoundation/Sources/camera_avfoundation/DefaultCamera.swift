@@ -136,7 +136,7 @@ final class DefaultCamera: FLTCam, Camera {
       output: captureVideoOutput.avOutput)
 
     if captureDevice.position == .front {
-      connection.isVideoMirrored = true
+      connection.isVideoMirrored = false
     }
 
     return (captureVideoInput, captureVideoOutput, connection)
