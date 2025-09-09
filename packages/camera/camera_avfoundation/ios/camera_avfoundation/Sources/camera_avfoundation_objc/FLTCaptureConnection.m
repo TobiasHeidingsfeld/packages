@@ -27,11 +27,11 @@
 }
 
 - (void)setVideoMirrored:(BOOL)videoMirrored {
-  self.connection.videoMirrored = videoMirrored;
+  self.connection.videoMirrored = false;
 }
 
 - (BOOL)isVideoMirrored {
-  return self.connection.isVideoMirrored;
+  return false;
 }
 
 - (void)setVideoOrientation:(AVCaptureVideoOrientation)videoOrientation {
