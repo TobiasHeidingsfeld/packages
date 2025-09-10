@@ -134,7 +134,7 @@ final class DefaultCamera: FLTCam, Camera {
     let connection = AVCaptureConnection(
       inputPorts: captureVideoInput.ports,
       output: captureVideoOutput.avOutput)
-
+  
     if captureDevice.position == .front {
       connection.isVideoMirrored = false
     }
